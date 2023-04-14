@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+ <files>
+  <file>index.php</file>
+  <file>config.inc.php</file>
+  <file>header.php</file>
+  <file>footer.php</file>
+  <file>LUE_MINUT.txt</file>
+  <file>MUUTOS_LOGI.txt</file>
+  <file>pisteet.txt</file>
+  <file>polygoni.txt</file>
+  <file>uploads/index.html</file>
+  <file>functions/index.html</file>
+  <file>functions/functions.php</file>
+  <file>images/index.html</file>
+  <file>images/back00.gif</file>
+  <file>images/back01.gif</file>
+  <file>images/back02.gif</file>
+  <file>images/back03.gif</file>
+  <file>images/Bell Gothic Bold BT.ttf</file>
+  <file>images/confirm.php</file>
+  <file>images/polygoni.php</file>
+  <file>images/TYPENR__.TTF</file>
+  <file>images/Typo Negative.ttf</file>
+  <file>includes/index.html</file>
+  <file>includes/error.php</file>
+  <file>includes/help.php</file>
+  <file>includes/http_from.php</file>
+  <file>includes/http_submit.php</file>
+  <file>includes/report.php</file>
+  <file>css/index.html</file>
+  <file>css/stylesheet.css</file>
+ </files>

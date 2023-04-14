@@ -1,0 +1,58 @@
+/* CSS Document */
+
+body
+{
+color: black;
+font-size: 12px;
+font-family: Arial, Helvetica, sans-serif;
+margin: 5px;
+padding: 5px;
+background-color: white;
+}
+
+#header
+{
+background-color: #CCCCCC;
+width: 800px;
+height: 30px;
+padding: 10px;
+}
+
+#content
+{
+background-color: #E0E0E0;
+width: 800px;
+padding: 10px;
+}
+
+#footer
+{
+background-color: #CCCCCC;
+width: 800px;
+height: 10px;
+padding: 10px;
+margin-top: 0px;
+}
+
+a
+{
+color: black;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h1
+{
+font-size: 16px;
+}
+
+img.report 
+{
+border: 1px #FFFFFF solid;
+}
+
+ol li 
+{
+padding: 10px;
+margin-left: 20px;
+}

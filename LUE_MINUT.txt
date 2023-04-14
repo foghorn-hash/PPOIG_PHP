@@ -1,0 +1,30 @@
+--------- PPOIG_PHP -----------
+---------- Asennus ------------
+
+1. Siirr‰ tiedostot palvelimelle
+
+2. Lataa mukanatulevan ppoig-phpppoig_php_reports.sql.zip
+   tiedoston sis‰ltˆ MySQL-tietokantaan
+
+3. Muuta asetuksia config.inc.php tiedostossa: 
+   V‰hint‰‰n aseta tietokannan asetukset
+
+4. Avaa selain ja mene osoitteeseen jossa t‰m‰
+   ohjelma on ja testaa
+
+--- Tiedossa olevat bugit ---
+
+1. Pisteiden sijainnin m‰‰ritt‰minen suhteessa polygoniin
+   ei toimi jos piste on toista pistett‰ kuvaavan ympyr‰n
+   tai numeron p‰‰ll‰. T‰m‰ m‰‰ritys tapahtuu siten, ett‰
+   ohjelmatarkistaa pisteen koordinaatin alueen v‰rin bit-
+   tikartasta ja sen perustella kertoo onko piste X poly-
+   gonin sis‰ll‰, reunaviivalla vai polygonin ulkopuolella
+    - GD2 PNG kuvassa ei ole tasoja, jonka takia bugin 
+      korjaaminen on vaikeaa.
+    - Pisteiden suhteen m‰‰rit‰minen polugoniin on liian
+      vaikea ja toisinaan mahdotonta vektori- ja yht‰lˆ-
+      laskuilla. Jos polygoni on liian monimutkainen on
+      tietyiss‰ tapauksissa pisteen sijainnin m‰‰ritt‰-
+      minensuhteessa polygoniin mahdotonta, koska ei voida 
+      tiet‰‰ laskemalla mik‰ on sis‰puolta.
